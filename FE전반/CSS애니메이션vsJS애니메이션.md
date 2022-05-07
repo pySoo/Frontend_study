@@ -7,7 +7,7 @@
 ## CSS 애니메이션
 
 - 컴포넌트를 이동시켜보자
-1. CSS: translate
+1. CSS: translate() 
 2. JS: setInterval 내부에서 style.top, style.left를 변화시켜줌
 
 2번은 브라우저 렌더링 과정에서 reflow를 발생시키기 때문에 뚝뚝 끊기는 느낌을 받게 된다. 따라서 레이아웃을 변경하는 경우에는 CSS 애니메이션을 사용하는 것을 브라우저 최적화를 위해 권장한다.
